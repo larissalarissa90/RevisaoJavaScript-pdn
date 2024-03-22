@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="notas.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body >
+    <h1>Sistema para inserir dados de alunos</h1>
+   
+        <input type="text" name="nomes" placeholder="Digite o nome do aluno" id="nomes" onfocus="this.value=''"  required>
+        <input type="text" name="notas" placeholder="Digite a nota do aluno"  id="notas" onfocus="this.value=''" required>
+        <button type="submit" id="inserir_dados" onclick="inserir_dados()">Inserir aluno</button>
+    
+    <div>
+        <table border="2" id="tabela" >
+            <tr>
+                <th>Nome</th>
+                <th>Notas</th>
+            </tr>
+        </table>
+    </div>
+
+    
+</body>
+</html>
